@@ -1,0 +1,45 @@
+<html>
+    <head>
+      <style>
+        body {
+          background-image: url('worldatwar.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+      <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+var realmName = document.createElement('div');
+realmName.innerHTML = 'World of War';
+realmName.style.fontSize = '50px';
+realmName.style.fontFamily = 'Arial';
+realmName.style.textAlign = 'center';
+document.body.appendChild(realmName);
+
+var realmDescription = document.createElement('div');
+realmDescription.innerHTML = 'This is a realm where you can fight in a war with guns. You are able build a base and fight with your friends. Make sure to read the rules and have fun!';
+realmDescription.style.fontSize = '20px';
+realmDescription.style.fontFamily = 'Arial';
+realmDescription.style.textAlign = 'center';
+document.body.appendChild(realmDescription);
+
+
+
+var joinButton = document.createElement('button');
+joinButton.innerHTML = 'Join';
+joinButton.style.fontSize = '20px';
+joinButton.style.textAlign = 'center';
+joinButton.style.width = '100px';
+joinButton.style.height = '50px';
+joinButton.style.margin = 'auto';
+joinButton.style.display = 'block';
+joinButton.onclick = function() {
+  window.location.href = 'https://realms.gg/qyzf_ejvF4E';
+};
+document.body.appendChild(joinButton);
+});
+        </script>
+    </head>
